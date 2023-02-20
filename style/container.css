@@ -1,0 +1,36 @@
+:root
+{
+    --container-space: 16px;
+}
+
+.container
+{
+    padding-left: var(--container-space);
+    padding-right: var(--container-space);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (768px < width < 992px)
+{
+    .container
+    {
+        width: 750px;
+    }
+}
+
+@media (992px < width < 1200px)
+{
+    .container
+    {
+        width: 970px;
+    }
+}
+
+@media (width > 1200px)
+{
+    .container
+    {
+        width: 1170px;
+    }
+}
